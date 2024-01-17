@@ -3,7 +3,7 @@ pipeline {
  stages {
    stage ('Build') {
      steps {
-      echo "this is to get the build with GIT-m"
+      echo "this is to get the build with GIT-mj"
 	  }
    
    }
