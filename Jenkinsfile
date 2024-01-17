@@ -3,18 +3,18 @@ pipeline {
  stages {
    stage ('Build') {
      steps {
-      echo "this is to get the build with GIT"
+      echo "this is to get the build with GIT-m"
 	  }
    
    }
    stage ('Deploy') {
      steps {
-      echo "this is to deploy the build with GIT"
+      echo "this is to deploy the build with GIT-m"
       }
    }
    stage ('Test') {
      steps {
-      echo "this is to test the build with GIT"
+      echo "this is to test the build with GIT-m"
       }
    }
  }
